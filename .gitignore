@@ -1,0 +1,6 @@
+# 個人・非共有ファイル（共有 .claude 本体には含めない＝利用側へ漏らさない）
+# このリポジトリの中身は利用側で .claude/ として展開されるため、個人ファイルを追跡しないこと。
+settings.local.json
+CLAUDE.local.md
+**/settings.local.json
+**/CLAUDE.local.md
