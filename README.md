@@ -1,0 +1,2 @@
+# basic_dot_claude
+Claude Codeを使った作業の種別を問わず汎用的な.claudeフォルダ
