@@ -24,6 +24,7 @@ Claude Code を使う作業の種別を問わず使える、**汎用的な共有
 | `output-styles/` | 出力スタイル |
 | `templates/` | skill 依頼書などのテンプレート |
 | `launcher/` | 起動ランチャーの**部品**（`setup-environment.{sh,ps1}`・各テンプレート）。**本体 `start_claude_code.{sh,ps1}` は `.claude/` の外**にあり本リポには含まれない ―― ひな型ハブ `basic_cc_project` がルート直下に持つ |
+| `settings.local.json.example` | 個人用ローカル設定の雛型（コピー先で `settings.local.json` にして使う・非共有） |
 | `.gitignore` / `.gitattributes` | 配布先での個人実体の除外・改行固定（payload に同乗する統制ファイル） |
 
 > **配布実体はこのリポの `main` に反映済み**（供給元 `base-dev-kit-for-cc` の `publish-share` が充填する）。
