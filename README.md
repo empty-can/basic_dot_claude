@@ -4,6 +4,10 @@ Claude Code を使う作業の種別を問わず使える、**汎用的な共有
 このリポジトリの中身がそのまま利用側プロジェクトの `.claude/` になる（git submodule として取り込む、
 または中身をコピーする）。
 
+> 📚 **設計・配布リリース手順・統制の知見（正本）**: この配布フロー（供給元 `base-dev-kit-for-cc` →
+> 本リポ → 雛型ハブ `basic_cc_project`）の設計・手順・レビューの完成版ドキュメントは
+> [`cc-relative-info` の `claude-dir-sharing-governance/`](https://github.com/empty-can/cc-relative-info/tree/develop/claude-dir-sharing-governance) が正本。
+
 ## 位置づけ（配布フロー）
 
 - **供給元（開発）**: `base-dev-kit-for-cc` で開発した `.claude` 資産を `publish-share` で本リポへ反映。
